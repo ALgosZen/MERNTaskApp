@@ -1,15 +1,21 @@
 {
   "name": "merntaskapp",
   "version": "1.0.0",
-  "description": "TaskApp",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start" : "node backend/server.js",
-    "server" : "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Suresh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALgosZen/MERNTaskApp.git"
+  },
+  "author": "suresh",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALgosZen/MERNTaskApp/issues"
+  },
+  "homepage": "https://github.com/ALgosZen/MERNTaskApp#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.0.0",

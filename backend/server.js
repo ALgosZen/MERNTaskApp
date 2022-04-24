@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 app.use('/api/goals', require('./routers/goalRoutes'))
-
+app.use('/api/users', require('./routers/userRoutes'))
 // this handler must be after the route as placed above
 app.use(errorHandler)
 

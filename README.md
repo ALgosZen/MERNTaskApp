@@ -2,10 +2,10 @@
 
 This is a goalsetter app developed using MERN . To being with after git pull create an env file with the following env variables
 
-NODE_ENV = ****
-PORT = ****
-MONGO_URI = >your mongo atlas instance conn. string. you can also run docker mongodb local. for browsing use mongodb compass>
-JWT_SECRET = ****
+NODE_ENV , PORT ,MONGO_URI and JWT_SECRET
+
+your mongo atlas instance conn. string. you can also run docker mongodb local. for browsing use mongodb compass
+
 
 
 ## Available Scripts
